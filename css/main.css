@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: inline-block;
+  width: 100%
+}
+
+.banner {
+  display: flex;
+  position: relative;
+  max-height: 500px;
+  max-width: 50em;
+  margin: 0;
+}
+.banner-content {
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 1rem;
+}
+
+div > h1 {
+  font-style: bold;
+  font-size: 4rem;
+
+}
+
+div > p {
+  font-style: italic;
+  font-size: 2rem;
+}
